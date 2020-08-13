@@ -1,0 +1,15 @@
+1.jq api
+
+
+
+4.load
+  定向的加载页面
+    div id="main" 
+
+
+
+
+1 -- 新增标签 --
+header
+footer
+nav
