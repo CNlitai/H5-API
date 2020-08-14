@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .outer {
+      height: 150px;
+      border: 1px solid red;
+    }
+    .inner {
+      width: 100px;
+      height: 100px;
+      border: 1px solid blue;
+      float: left;
+      margin: 10px
+    }
+  </style>
+  <script>
+    window.onload = function() {
+      var outer = document.getElementsByClassName('outer')[0];
+      var inner = document.getElementsByClassName('inner')
+      inner = Array.from(inner);
+      console.log(inner);
+    }
+  </script>
+</head>
+<body>
+  <div class="outer">
+
+  </div>
+
+  <div class="inner"></div>
+  <div class="inner"></div>
+  <div class="inner"></div>
+  <div class="inner"></div>
+  <div class="inner"></div>
+  <div class="inner"></div>
+</body>
+</html>
